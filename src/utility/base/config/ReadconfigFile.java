@@ -17,7 +17,7 @@ public class ReadconfigFile {
 	
 	driver.get(con.getApplicationUrl());
 	driver.findElement(By.id(con.getuserName())).sendKeys("don");
-	driver.findElement(By.id(con.getpassword())).sendKeys("don1234");
+	driver.findElement(By.id(con.getpassword())).sendKeys("don123");
 	driver.findElement(By.xpath("//*[@value='Login']")).click();
 		
 	}
